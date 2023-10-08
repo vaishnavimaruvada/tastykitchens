@@ -1,0 +1,238 @@
+.BackgroundContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BackgroundContainer .NotFoundContainer {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.NotFoundContainer .Heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.NotFoundContainer .Para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #475569;
+}
+.NotFoundContainer .Button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: static;
+
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.FoodItemsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 767px) {
+  .NotFoundContainer {
+    width: 70%;
+  }
+  .NotFoundContainer .Heading {
+    font-size: 25px;
+  }
+  .NotFoundContainer .Para {
+    font-size: 20px;
+  }
+  .NotFoundContainer .Button {
+    font-size: 16px;
+  }
+  .restaurant-details {
+    height: 344px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333333;
+    background-image: url('https://res.cloudinary.com/dctnoka3e/image/upload/v1678374035/Group_7418_oxkzyb.png');
+    background-size: cover;
+  }
+}
+.restaurant-details {
+  height: 344px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #333333;
+  background-image: url('https://res.cloudinary.com/dctnoka3e/image/upload/v1678374035/Group_7418_oxkzyb.png');
+  background-size: cover;
+}
+.restaurant-img {
+  height: 280px;
+  width: 445px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.restaurant-description {
+  margin: 30px;
+}
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.cuisine {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.location {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.star {
+  color: #ffffff;
+}
+.reviews-count {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+.cost-for-two {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.rupee {
+  color: #ffffff;
+}
+.cost-for-two-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+.rating-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating-cost-section {
+  display: flex;
+  flex-direction: row;
+}
+.line {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.restaurant-description {
+  margin: 30px;
+}
+.unordered-list {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
